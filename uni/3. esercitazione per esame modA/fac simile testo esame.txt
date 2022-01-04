@@ -1,0 +1,163 @@
+Compito Gruppo B
+ESERCIZI DI TEORIA
+
+ESERCIZIO 1
+
+
+Sei su un computer immaginario con sistema operativo Linux.
+
+
+Digitando pwd da terminale ti comparte stampato a schermo:
+
+/home/utente/nebulose/PLANETARIE
+
+
+scrivi i comandi che servono ad eseguire le seguenti operazioni:
+
+i) Fare una lista di tutti i files che si trovano nella directory /home/utente/Scaricati (senza spostarti dalla directory corrente)
+
+
+ii) Crea una directory dal nome Dumbbell ed una dal nome RingNebula
+
+iii) Sposta il file M27.jpg che si trova nella directory /home/utente/Scaricati nella directory Dumbbell
+
+iv) Spostati nella directory RingNebula
+
+v) Rimuovi, se possibile, il file M27.jpg dalla directory Scaricati
+
+vi) Copia il file M57.txt dalla directory nebulose di cui sopra alla cartella RingNebula (senza spostarti dalla directory corrente)
+
+
+ESERCIZIO 2
+
+
+Specifica se le seguenti affermazioni sono vere o false
+
+
+i) Un algoritmo non deve avere un numero infinito di passi.
+
+
+ii) Una variabile booleana e Salva ciascun esercizio in un file .py dedicato. Ad esempio esercizio6.py, esercizio7.py, ecc.
+
+
+inizio di ciascun file indica come commento il tuo nome e cognome:
+
+# Nome Cognome
+
+
+ammasso globulare NGC2808 contiene stelle normali e gruppi di stelle con contenuto chimico estremo. Il loro contenuto di elio, azoto, sodio ed altri elementi eossigeno ed il magnesio sembrano invece essere praticamente scomparsi da queste stelle estreme.
+
+Gli eventi astrofisici, avvenuti nellastronomia moderna.
+
+
+Il file NGC2808.dat contiene delle misure relative a gruppi di stelle di NGC2808 e include sia i gruppi di stelle estreme che quelle normali. Queste misure sono ottenute da fotometria multi-banda ricavata da immagini del telescopio spaziale Hubble.
+
+
+In particolare il file contiene:
+
+L Un numero (n) che vale 1 per i gruppi di stelle normali, e 2 per quelli estremi (colonna 3).
+
+
+i) Fai il grafico di Y in funzione di N.
+
+ii) Evidenzia in rosso i punti relativi alle stelle estreme.
+
+iii) Calcola labbondanza di azoto media dei gruppi di stelle normali e di quelli estremi.
+
+v) Determina e rappresenta graficamente la retta  che meglio approssima i punti estremi.
+
+vi) Determina e rappresenta graficamente il polinomio di secondo grado che meglio approssima tutti i punti.
+
+
+Nota:
+
+polyfit per comodita stato copiato alla fine di questo documento
+
+ESERCIZIO 7
+
+
+Data la successione:
+
+N0=7
+
+N1=4
+
+...
+
+Nn= N(n-2) - 1/N(n-1) con n>1
+
+
+Calcola la somma dei primi 11 numeri della successione.
+
+
+
+ESERCIZIO 8
+
+
+istogramma (non normalizzato) corrispondente.
+
+iii) copia alla fine dell di 10 dollari.
+
+
+ii) stampa sul terminale le misure in euro dollari e sterline
+
+
+iii) (come commento) i comandi da scrivere sul terminale per eseguire quanto richiesto dai punti i) e ii).
+
+
+
+ESERCIZIO 10
+
+
+Scrivi una funzione di Python che calcoli N punti della funzione:
+
+y=A*sin(x)+B*cos(x**C)
+
+
+nellesercizio (come commento) i comandi da scrivere sul terminale per eseguire quanto richiesto dai punti i) e ii).
+
+
+
+ESERCIZIO 11
+
+
+Scrivi una sequenza di tre parole (stringhe):
+
+
+i) aggiungi tre parole alla fine della stringa
+
+
+ii) usando il ciclo for stampa ogni stringa.
+
+
+iii) usando il ciclo while calcola la lunghezza totale di tutte le stringhe
+
+
+iv) Elimina le prime due stringhe e sostituiscile con una stringa a tuo piacimento.
+
+v) stampa la sequenza che ne risulta
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+NGC2808.dat
+
+
+# Y [N/Fe] n
+
+#
+
+0.247 0.01 1
+
+0.249 0.05 1
+
+0.275 0.64 2
+
+0.292 0.91 2
+
+0.327 1.14 2
+
+0.360 1.18 2
